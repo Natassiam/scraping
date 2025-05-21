@@ -70,7 +70,7 @@ submit_response = requests.post(
 )
 
 if submit_response.status_code == 200:
-    print("Resposta submetida com sucesso. Pressione F5 na página da avaliação para liberar o envio do script.")
+    print("Resposta submetida com sucesso.")
 else:
     print("Erro ao submeter a resposta:")
     print(submit_response.status_code)
